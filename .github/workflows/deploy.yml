@@ -3,7 +3,6 @@ name: CD
 on:
   workflow_run:
     workflows:
-      - log github events
       - Format and Test Check
     types:
       - completed
@@ -12,7 +11,6 @@ on:
   pull_request:
     types: [opened, closed]
     branches: [main, master]
-
 
 jobs:
   deployment:
@@ -65,4 +63,3 @@ jobs:
             docker compose stop
             docker compose up -d --pull always --force-recreate
           EOF
-
