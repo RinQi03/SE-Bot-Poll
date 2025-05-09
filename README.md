@@ -1,6 +1,3 @@
-![CI](https://github.com/software-students-spring2025/5-final-awesome/actions/workflows/test.yml/badge.svg)
-![CD](https://github.com/software-students-spring2025/5-final-awesome/actions/workflows/deploy.yml/badge.svg)
-
 # Easy Anonymous Polls
 
 This project allows users to create polls, which generates a poll code that can be used to vote on polls. Log in and sign up features are optional for users who wants to keep track of their polls.\
@@ -32,7 +29,7 @@ The web app now runs on [http://127.0.0.1:8000](http://127.0.0.1:8000)
 ## Environment Variables Setup
 
 Look at [web-app/example.env](web-app/example.env)\
-Simply rename the file to ```.env``` and change the value of ```SECRET_KEY``` as you like
+Simply rename the file to `.env` and change the value of `SECRET_KEY` as you like
 
 ## Install and Run Formatter
 
